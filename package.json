@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon set DEBUG=sample:* ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
     "express": "~4.16.1",
+    "express-validator": "^6.14.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1"

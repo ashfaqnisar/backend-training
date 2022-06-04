@@ -1,9 +1,11 @@
 {
     name: "fdsf",
-    age: 18, 
+    age: 18,
     email: "sdsd@gmail.com"
 }
 
 - Get all the materials - /materials - GET
 - Get Specific material - /materials/:materialId - GET
 - Create one material. - /materials - POST
+- Update Specific whole material - /materials/:materialId - PUT
+- Update Specific field material - /materials/:materialId - PATCH
